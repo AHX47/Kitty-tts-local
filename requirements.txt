@@ -1,0 +1,33 @@
+# KittenTTS Studio — unified requirements (all platforms)
+# pip install -r requirements.txt --break-system-packages
+
+# ── Flet (cross-platform: Android / Web / Desktop) ───────────────────────────
+flet>=0.24.0
+flet-audio>=0.24.0
+
+# ── PyQt5 (Windows / Linux desktop) ──────────────────────────────────────────
+PyQt5>=5.15.10
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.13.0
+
+# ── TTS engine (shared) ───────────────────────────────────────────────────────
+onnxruntime>=1.17.0
+numpy>=1.24.0
+soundfile>=0.12.0
+phonemizer>=3.2.1
+espeakng-loader>=0.1.0
+
+# ── Voice cloning ─────────────────────────────────────────────────────────────
+resemblyzer>=0.1.1.dev0
+
+# ── Audio conversion ──────────────────────────────────────────────────────────
+pydub>=0.25.1
+librosa>=0.10.0
+
+# ── Model downloader ──────────────────────────────────────────────────────────
+requests>=2.31.0
+tqdm>=4.66.0
+
+# ── Build tools (install manually when needed) ───────────────────────────────
+# pyinstaller>=6.3.0       # exe / Linux binary
+# briefcase>=0.3.17        # alternative macOS .app packager

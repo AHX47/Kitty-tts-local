@@ -1,0 +1,24 @@
+# KittenTTS Studio — Flet app dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# ── Flet framework ────────────────────────────────────────────────────────────
+flet>=0.24.0
+flet-audio>=0.24.0
+
+# ── TTS engine ────────────────────────────────────────────────────────────────
+onnxruntime>=1.17.0          # CPU inference (do NOT use onnxruntime-gpu on mobile)
+numpy>=1.24.0
+soundfile>=0.12.0
+phonemizer>=3.2.1
+espeakng-loader>=0.1.0
+
+# ── Voice cloning ────────────────────────────────────────────────────────────
+resemblyzer>=0.1.1.dev0      # Speaker embeddings (primary)
+
+# ── Audio utilities ───────────────────────────────────────────────────────────
+pydub>=0.25.1                # MP3/OGG export (requires ffmpeg binary)
+librosa>=0.10.0              # Optional: high-quality resampling
+
+# ── Model downloading ─────────────────────────────────────────────────────────
+requests>=2.31.0
+tqdm>=4.66.0
