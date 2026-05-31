@@ -97,6 +97,7 @@ python main_qt.py
 ---
 ### Test
 <video controls src="assets/sounds/kittentts_1.mp3" width="300" height="40"></video>
+<audio src="assets/sounds/kittentts_1.wav" controls width="320" height="40"></audio>
 
 
 ## 📱 Build Android APK
