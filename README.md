@@ -95,6 +95,9 @@ python main_qt.py
 ```
 
 ---
+### Test
+<video controls src="assets/sounds/kittentts_1.mp3" width="300" height="40"></video>
+
 
 ## 📱 Build Android APK
 
